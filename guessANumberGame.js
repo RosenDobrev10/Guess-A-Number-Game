@@ -8,14 +8,14 @@ function guessANumber() {
 
     let computerNumber = Math.floor(Math.random() * 100);
     let userInput;
-    let userTries = 0;
+    let userTries = 10;
 
     let recursiveAsyncReadLine = function () {
-        readline.question("Guess a number between 0 and 100. You have only 10 tries: ", (input) => {
+        readline.question(`Guess a number between 0 and 100. You have only ${userTries} tries: `, (input) => {
             userInput = Number(input);
-            userTries++
+            userTries--
 
-            if (userTries > 10) {
+            if (userTries === 0) {
                 console.log(`Sorry! You have lost. The number is ${computerNumber}!`);
                 return readline.close();
             }
@@ -25,10 +25,10 @@ function guessANumber() {
                     console.log(`Congratulations! You have won. The number is ${computerNumber}!`);
                     return readline.close();
                 } else if (userInput < computerNumber) {
-                    console.log("Try higher!");
+                    console.log("Try higher number!");
                     recursiveAsyncReadLine();
                 } else if (userInput > computerNumber) {
-                    console.log("Try lower!");
+                    console.log("Try lower number!");
                     recursiveAsyncReadLine();
                 }
             } else {
