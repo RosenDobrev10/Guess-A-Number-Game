@@ -8,7 +8,7 @@ function guessANumber() {
 
     let computerNumber = Math.floor(Math.random() * 100);
     let userInput;
-    let userTries = 0
+    let userTries = 0;
 
     let recursiveAsyncReadLine = function () {
         readline.question("Guess a number between 0 and 100. You have only 10 tries: ", (input) => {
@@ -37,6 +37,6 @@ function guessANumber() {
             }
         });
     };
-    recursiveAsyncReadLine()
+    recursiveAsyncReadLine() 
 }
 guessANumber()
