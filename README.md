@@ -1,4 +1,4 @@
-# Guess-A-Number-Game
+# Guess-A-Number Game
 This is a simple console game "Guess A Number".
 
 <img src="https://play-lh.googleusercontent.com/q5lSxwHjIThHOMU3V7k28vSunN9qBSX-XY53tBtEJON3vdBvByBLC46iyLwzvM8cImxs" alt="Guess a number" width="200px" height="200px" />
@@ -12,4 +12,4 @@ The player will lose the game, if he did not succeed to guess the number in 10 t
 
 ![image](https://user-images.githubusercontent.com/104829819/191908879-bc816e80-fe5c-47ae-ac56-1d007b200516.png)
 
-Enjoy the game! 
+Enjoy the game ! :)
