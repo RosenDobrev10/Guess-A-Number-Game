@@ -11,7 +11,7 @@ function guessANumber() {
     let userTries = 10;
 
     let recursiveAsyncReadLine = function () {
-        readline.question(`Guess a number between 0 and 100. You have only ${userTries} tries: `, (input) => {
+        readline.question(`Guess a number between 0 and 100. You have ${userTries} tries to guess: `, (input) => {
             userInput = Number(input);
             userTries--
 
@@ -32,7 +32,7 @@ function guessANumber() {
                     recursiveAsyncReadLine();
                 }
             } else {
-                console.log("Invalid input! Please enter a number");
+                console.log("Invalid input! Please enter a number between 0 and 100");
                 recursiveAsyncReadLine();
             }
         });
