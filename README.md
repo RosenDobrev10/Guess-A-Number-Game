@@ -1,5 +1,5 @@
 # Guess-A-Number Game
-This is a simple console game "Guess A Number".
+This is a simple game called "Guess A Number".
 
 Play here -> https://Guess-a-Number-Game.rosendobrev10.repl.co
 
@@ -10,9 +10,8 @@ Guess A Number is simple guessing game, where a player is supposed to guess the 
 The player will win the game, when his guess is the same as computer's.
 The player will lose the game, if he did not succeed to guess the number in 10 tries.
 
-![image](https://user-images.githubusercontent.com/104829819/192135212-a5571334-9b78-4d9f-8b62-8613b25543d2.png)
+![image width="200px" height="200px"](https://user-images.githubusercontent.com/104829819/192135212-a5571334-9b78-4d9f-8b62-8613b25543d2.png)
 
-![image](https://user-images.githubusercontent.com/104829819/192135253-7d50f66f-e6c1-430e-950e-7d2695f85d8c.png)
-
+![image width="200px" height="200px"](https://user-images.githubusercontent.com/104829819/192135253-7d50f66f-e6c1-430e-950e-7d2695f85d8c.png)
 
 Enjoy the game ! :)
