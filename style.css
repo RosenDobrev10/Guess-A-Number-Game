@@ -1,0 +1,30 @@
+body {
+  background-color: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  max-width: 1000px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+body h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.form input[type="number"] {
+  width: 100px;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.lastResult {
+  color: white;
+  padding: 5px;
+}
+
+.guessSubmit {
+  border-radius: 6px;
+  padding: 5px;
+}
