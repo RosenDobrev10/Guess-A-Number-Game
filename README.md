@@ -10,8 +10,6 @@ Guess A Number is simple guessing game, where a player is supposed to guess the 
 The player will win the game, when his guess is the same as computer's.
 The player will lose the game, if he did not succeed to guess the number in 10 tries.
 
-![image width="200px" height="200px"](https://user-images.githubusercontent.com/104829819/192135212-a5571334-9b78-4d9f-8b62-8613b25543d2.png)
-
-![image width="200px" height="200px"](https://user-images.githubusercontent.com/104829819/192135253-7d50f66f-e6c1-430e-950e-7d2695f85d8c.png)
+![Guess A Number](https://user-images.githubusercontent.com/104829819/200535875-94f9c584-b827-4588-b9a7-25aec33d8e8f.png)
 
 Enjoy the game ! :)
