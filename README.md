@@ -1,7 +1,7 @@
 # Guess-A-Number Game
 This is a simple game called "Guess A Number".
 
-Play here -> https://Guess-a-Number-Game.rosendobrev10.repl.co
+Play here -> https://rosendobrev10.github.io/Guess-A-Number-Game/
 
 <img src="https://play-lh.googleusercontent.com/q5lSxwHjIThHOMU3V7k28vSunN9qBSX-XY53tBtEJON3vdBvByBLC46iyLwzvM8cImxs" alt="Guess a number" width="200px" height="200px" />
 
